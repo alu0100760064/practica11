@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Valor de $\pi $}{6}{0}{1}
+\beamer@sectionintoc {2}{nombre de $\pi $}{7}{0}{2}
+\beamer@sectionintoc {3}{FORMULAS}{8}{0}{3}
+\beamer@sectionintoc {4}{Bibliograf\IeC {\'\i }a}{14}{0}{4}

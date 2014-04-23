@@ -1,0 +1,136 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  
+\title[Presentación con Beamer]{Número PI }
+\author[Elízabeth Díez Rodríguez]{Elízabeth Díez Rodríguez}
+\date[23-04-2014]{23 de abril de 2014}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{tree}
+%\usetheme{classic}
+
+
+\begin{document}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \titlepage
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Índice}
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+\section{Valor de $\pi$}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{Valor de $\pi$}
+
+\begin{definicion}
+El valor de $\pi$ se ha obtenido con diversas aproximaciones a lo largo de la historia,
+siendo una de las constantes matemáticas que más aparece en las ecuaciones de la física, junto con el número e.
+Cabe destacar que el cociente entre la longitud de cualquier circunferencia y 
+la de su diámetro no es constante en geometrías no euclídeas.
+
+
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{nombre de $\pi$}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{nombre de $\pi$}
+
+\begin{definicion}
+La notación con la letra griega $\pi$ proviene de la inicial de las palabras de origen griego $\pi$epilyepela 'periferia'
+y $\pi$epilyepela 'perímetro' de un círculo,1 notación que fue utilizada primero por William Oughtred (1574-1660) y 
+cuyo uso fue propuesto por el matemático galés William Jones2 (1675-1749); aunque fue el matemático Leonhard Euler,
+con su obra Introducción al cálculo infinitesimal, de 1748, quien la popularizó. Fue conocida anteriormente como constante
+de Ludolph (en honor al matemático Ludolph van Ceulen) o como constante de Arquímedes (que no se debe confundir con el número
+de Arquímedes).
+
+\end{definicion}
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{FORMULAS}
+
+\begin{frame}
+\frametitle{FORMULAS}
+
+
+
+\begin{block}{FORMULAS QUE CONTIENEN EL NUMERO PI}
+  \begin{itemize}
+    \item <1-> Primera.Longitud de la circunferencia de radio:
+    r: C = 2* $\pi$ * r
+\pause
+    \item <2-> Segunda.Área del círculo de radio r: A = $\pi$ $r^2$
+    \pause
+    \item <3-> Tercera:
+    x=\frac{a_2 x^2 + a_1 x + a_0}{1+2z^3}, \quad
+x+y^{2n+2}=\sqrt{b^2-4ac} \pause
+    \item <4-> Cuarta:
+    S_n=a_1+\cdots + a_n = \sum_{i=1}^n a_i \pause
+    \item <4-> Quinta:
+    \int_{x=0}^{\infty} x\,\text{e}^{-x^2}
+\text{d}x=\frac{1}{2},\quad\text{e}^{i\pi}+1=0 \pause
+  \end{itemize}
+\end{block}
+
+\end{frame}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+
+    \beamertemplatebookbibitems
+    \bibitem[numero pi]{}
+    Numero pi
+   
+    {\small http://es.wikipedia.org}
+
+    \beamertemplatebookbibitems
+    \bibitem[numerp pi]{latex}
+    pi. {\small http://webs.adam.es/rllorens/pi.htm }
+
+  \end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\end{document}
